@@ -36,6 +36,7 @@ public class QuickSort {
 
         }
         i++;
+//         Again we updated our pivot index value
         int temp=pivot;
         arr[ei]=arr[i];
         arr[i]=temp;
