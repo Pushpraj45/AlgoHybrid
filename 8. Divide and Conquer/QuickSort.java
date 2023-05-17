@@ -21,12 +21,13 @@ public class QuickSort {
         quicksort(arr,si,pidx-1);
         quicksort(arr,pidx+1,ei);
     }
+//    ye function hume pivot ke aas pass values ko sort kar dega aur hume pivot ka correct index de dega  
     public static int partition(int arr[], int si, int ei){
         int pivot=arr[ei];
         int i=si-1; // to make place for elements smaller than pivot
         for (int j=si; j<ei; j++){
             if (arr[j]<=pivot){
-                i++;
+                i++; // if value less hai then we have to make place 
                 //swap
                 int temp=arr[j];
                 arr[j]=arr[i];
@@ -38,8 +39,8 @@ public class QuickSort {
         i++;
 //         Again we updated our pivot index value
         int temp=pivot;
-        arr[ei]=arr[i];
-        arr[i]=temp;
+        arr[ei]=arr[i]; // changing in pivot index not on it's value
+        arr[i]=temp; // stored pivot at i that's why we are returning i 
 return i;
     }
 }
