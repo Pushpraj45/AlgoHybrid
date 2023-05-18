@@ -19,3 +19,6 @@ public class Subsets {
         FindSubsets(str, ans, i+1);
     }
 }
+
+// TC - O(2^n * n);  as for finding a single subset it takes O(n) time and there are total 2^n subsets. 
+// SC - O(N); Total time 
