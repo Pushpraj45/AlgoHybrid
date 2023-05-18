@@ -13,13 +13,14 @@ public class Arrays {
         System.out.println();
     }
     public static void ChangeArr(int arr[] , int i, int value){
+//         Base Case
         if (i==arr.length){
             PrintArr(arr);
             return;
         }
-//        Recursion
-        arr[i]=value;
-        ChangeArr(arr,i+1, value+1);
+//        Recursion steps
+        arr[i]=value; // assigning value
+        ChangeArr(arr,i+1, value+1); // fnx recursive call step 
         arr[i]=arr[i]-2;                    // Backtracking Step
     }
 }
