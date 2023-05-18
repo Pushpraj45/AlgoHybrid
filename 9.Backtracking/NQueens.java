@@ -15,19 +15,19 @@ public class NQueens {
         System.out.println("Total no of ways "+count);
     }
     public static boolean issafe(char board[][], int row, int col){
-//        Vertical up
+//        Vertical up  row will be reduced by 1 and column remains same
         for (int i=row-1; i>=0; i--){
             if (board[i][col]=='Q'){
                 return false;
             }
         }
-//        Diag left up
+//        Diag left up both row and column will be reduced by 1 
         for (int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
             if (board[i][j]=='Q'){
                 return false;
             }
         }
-//        Diag Right up
+//        Diag Right up reduction of row by 1 and incrementation of column by 1 
         for (int i=row-1, j=col+1; i>=0 && j<board.length; i--, j++){
             if (board[i][j]=='Q'){
                 return false;
