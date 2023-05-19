@@ -9,8 +9,12 @@ public class ValidAnagram {
         HashMap<Character , Integer> map=new HashMap<>();
         for (int i=0; i<s.length(); i++){
             char ch=s.charAt(i);
+            
+//             put the character with default value as 0 and if it repeats increase it as by 1 each time 
             map.put(ch,map.getOrDefault(ch,0)+1 );
         }
+        
+//         Checking for IInd string by seeking help from Ist String 
         for (int i=0; i<t.length(); i++){
             char ch=t.charAt(i);
             if (map.get(ch)!=null){
