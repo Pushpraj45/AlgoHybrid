@@ -9,9 +9,14 @@ public class LargestSubarray0 {
 
         int sum=0;
         int len=0;
+        
+//         sum[i+1,j] => sum[0,j] - sum[0,i];
+//         got the formula 0 =>  sum[j] - sum[i];  
 
         for (int j=0; j<arr.length; j++){
-            sum+=arr[j];
+            sum+=arr[j]; // sum till jth index 
+//             if sum is their in map just compare if matched add length in answer and start comparing 
+//             else add sum in map with thier index 
             if (map.containsKey(sum)){
                 len=Math.max(len, j-map.get(sum));
             }
