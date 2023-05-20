@@ -15,6 +15,8 @@ public class UnionInterSSection {
         for (int i=0; i<arr2.length; i++){
             set.add(arr2[i]);
         }
+        
+//         To print the elements we can iterate in set amd print all elements 
 
         System.out.println("union = "+set.size());
 
@@ -30,6 +32,7 @@ public class UnionInterSSection {
         for (int i=0; i<arr2.length; i++){
             if (set.contains(arr2[i])){
                 count++;
+//                 Here we can directly print elements or we can just add them in another set simultaneuosly can remove also 
                 set.remove(arr2[i]);
             }
         }
