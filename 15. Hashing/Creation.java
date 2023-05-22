@@ -10,7 +10,7 @@ public class Creation {
         hm.put("Aus",120);
         hm.put("Indonesia",130);
 
- /*       System.out.print(hm);
+ /*       System.out.print(hm); printing the hashmap 
 
 /        get
         System.out.print(hm.get("India"));
