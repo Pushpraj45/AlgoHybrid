@@ -24,7 +24,7 @@ public class InterSectionLL {
         }
         return null;
     }
-
+// main function
     public static void main(String[] args){
         InterSectionLL ll=new InterSectionLL();
 
