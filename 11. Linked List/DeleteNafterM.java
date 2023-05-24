@@ -6,6 +6,7 @@ public class DeleteNafterM {
         Node next;
 
     }
+//     Defining
     public static Node head;
     static Node push(Node head, int newdata){
         Node newNode=new Node();
