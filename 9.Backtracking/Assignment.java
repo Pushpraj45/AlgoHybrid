@@ -1,4 +1,4 @@
-// JavaProgram to convert prefix to postfix
+// JavaProgram to convert prefix to postfix expression 
 import java.util.*;
 
 public class Assignment {
