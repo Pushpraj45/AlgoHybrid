@@ -7,18 +7,18 @@ public class ActivitySelection {
         int start[]={1,3,0,5,8,5};
         int end[]={2,4,6,7,9,9};
 
-
 //        Suppose activities are not sorted in end part then the process of sorting
         int activities[][]= new int[start.length][3];
         for (int i=0; i< start.length; i++){
-            activities[i][0]=i;
-            activities[i][1]=start[i];
-            activities[i][2]=end[i];
+            activities[i][0]=i; // index indentification
+            activities[i][1]=start[i]; // start time 
+            activities[i][2]=end[i]; // end time 
         }
-
+        
+//         same we have written in next lines for these 
 //        sorting of 2d arrays
 //        lambda function-> short form arrow function
-        Arrays.sort(activities, Comparator.comparingDouble(o->o[2]));
+        Arrays.sort(activities, Comparator.comparingDouble(o->o[2])); // start time basis = o->o[1] 
 
 //        end time basis sorted
         int maxact=0;
