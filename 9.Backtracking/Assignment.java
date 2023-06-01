@@ -3,10 +3,10 @@ import java.util.*;
 
 public class Assignment {
 
-
     static boolean isOperator(char x)
     {
         switch (x) {
+//                 defining some cases 
             case '+':
             case '-':
             case '/':
