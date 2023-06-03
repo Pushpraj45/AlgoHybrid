@@ -20,7 +20,7 @@ public class ArrayListImplement {
             list.remove(list.size()-1);
             return top;
         }
-//        peek operation
+//        peek operation to get top element 
         public static int peek(){
             return list.get(list.size()-1);
         }
