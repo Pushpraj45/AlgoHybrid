@@ -27,6 +27,7 @@ public class ArrayListImplement {
     }
     public static void main(String[] args){
 //        creating object of class stack
+//         stack creation
         Stack s=new Stack();
         s.push(1);
         s.push(2);
