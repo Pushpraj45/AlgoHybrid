@@ -49,7 +49,7 @@ public class BasicsPtwo {
         System.out.println(mainlist);
 
 
-//        Adding 3 list in one mainlist
+//        Adding 3 list in one mainlist so that we can identify the things
         ArrayList<ArrayList<Integer>>mainlist1=new ArrayList<>();
         ArrayList<Integer>Alist1=new ArrayList<>();
         ArrayList<Integer>Alist2=new ArrayList<>();
