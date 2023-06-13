@@ -5,7 +5,7 @@ public class MaxArea {
         int arr[]={2,4};
         MaxArea(arr);
 
-    }
+//     }here thr concept of next greater element is more important 
     public static void MaxArea(int arr[]){
         int maxArea=0;
         int nsr[]=new int[arr.length];
