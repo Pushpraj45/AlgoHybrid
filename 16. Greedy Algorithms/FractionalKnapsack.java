@@ -8,7 +8,7 @@ public class FractionalKnapsack {
         int w=50;
 
         double ratio[][]=new double[val.length][2];
-//        oth col => idx; 1st col => ratio
+//        oth col => idx; 1st col => ratio representation
         for (int i=0; i<val.length; i++){
             ratio[i][0]=i;
             ratio[i][1]=val[i]/(double)weight[i];
