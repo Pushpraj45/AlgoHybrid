@@ -1,7 +1,7 @@
 public class LinkedList {
     public static class Node{
         int data;
-        Node next; // Node type because it is going to point or referring in other node
+        Node next; // Node type because it is going to point or referring in other node yes
         public Node(int data){
             this.data=data;
             this.next=null;
