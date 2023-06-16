@@ -9,7 +9,7 @@ public class FirsNonRepeating {
         for(int i=0; i<str.length(); i++){
             char ch=str.charAt(i);
             q.add(ch);
-            frq[ch-'a']++;
+            frq[ch-'a']++; // increasing the frequency of character 
 
             while(!q.isEmpty() && frq[q.peek()-'a']>1){
                 q.remove();
