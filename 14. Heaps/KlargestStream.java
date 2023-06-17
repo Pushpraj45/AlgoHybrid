@@ -34,7 +34,7 @@ public class KlargestStream {
         int arr[]={1,2,3,4,5,6};
         List<Integer> res=getAllKthNumber(arr);
         for (int x:res){
-            System.out.println(x+" ");
+            System.out.println(x+"  ");
         }
     }
 }
