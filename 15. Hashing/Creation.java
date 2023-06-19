@@ -12,7 +12,7 @@ public class Creation {
 
  /*       System.out.print(hm); printing the hashmap 
 
-/        get
+ 
         System.out.print(hm.get("India"));
 
 //        containsKey
