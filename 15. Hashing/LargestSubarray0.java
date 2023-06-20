@@ -17,7 +17,8 @@ public class LargestSubarray0 {
             sum+=arr[j]; // sum till jth index 
 //             if sum is their in map just compare if matched add length in answer and start comparing 
 //             else add sum in map with thier index 
-            if (map.containsKey(sum)){
+            if (map.containsKey(sum)){ 
+                // agar koi sum exist karta hai so that simply implies ki un dono ke beech mein koi subarray hai jiska sum 0 hai 
                 len=Math.max(len, j-map.get(sum));
             }
             else{
