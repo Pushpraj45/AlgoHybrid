@@ -37,7 +37,7 @@ public class MaxSubarraySum {
 
 //        Calculate prefix array
         for (int i=1; i<prefix.length; i++){
-            prefix[i]=prefix[i-1]+numbers[i]; // pehle ka sum + curr element ka sum
+            prefix[i]=prefix[i-1]+numbers[i]; // pehle ka sum + curr element sum
         }
 
         for (int i=0; i<numbers.length; i++){
