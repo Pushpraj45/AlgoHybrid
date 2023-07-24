@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Questions {
     public static void main(String[] args){
-//        Monotonic ArrayList
+//        Monotonic ArrayLis
 //        ArrayList<Integer>nums=new ArrayList<>();
 //        nums.add(1);
 //        nums.add(2);
