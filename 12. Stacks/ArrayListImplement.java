@@ -7,7 +7,7 @@ public class ArrayListImplement {
             return list.size()==0;
 
         }
-//        push operation
+//        push operation on stack
         public static void push(int data){
             list.add(data);
         }
