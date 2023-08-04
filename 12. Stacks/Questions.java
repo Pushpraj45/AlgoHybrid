@@ -57,7 +57,7 @@ public class Questions {
         System.out.println(result);
 
  */
-//        For Reversing a Stack
+
         Stack<Integer>s=new Stack<>();
         s.push(1);
         s.push(2);
