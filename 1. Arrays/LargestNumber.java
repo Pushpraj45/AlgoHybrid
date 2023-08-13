@@ -14,7 +14,7 @@ public class LargestNumber {
                 smallest=numbers[i];
             }
         }
-        System.out.println("Smallest "+smallest);
+        System.out.println("Smalle "+smallest);
         return largest;
     }
 }
