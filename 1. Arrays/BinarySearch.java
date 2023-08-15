@@ -9,8 +9,7 @@ public class BinarySearch {
         while (start<=end){
             int mid =(start+end)/2; 
 //             to avoid 
-
-//            Comparisons
+ 
             if (numbers[mid]==key){
                 return mid;
             }
