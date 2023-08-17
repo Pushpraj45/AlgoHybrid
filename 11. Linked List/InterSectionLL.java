@@ -11,6 +11,7 @@ public class InterSectionLL {
             next=null;
         }
     }
+    // interssection node function 
     public Node getIntersectionNode(Node head1, Node head2){
         while(head2!=null){
             Node temp=head1;
