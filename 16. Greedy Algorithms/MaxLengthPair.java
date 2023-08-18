@@ -15,6 +15,7 @@ public class MaxLengthPair {
                 chainEnd=pairs[i][1];
             }
         }
+        // Printing the max length
         System.out.println("max length of chain is "+chainLen);
     }
 }
