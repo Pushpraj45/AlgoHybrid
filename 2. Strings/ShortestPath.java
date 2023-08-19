@@ -21,7 +21,7 @@ public class ShortestPath {
             else if (dir=='W'){
                 x--;
             }
-//            East
+//            Eastt
             else{
                 x++;
             }
