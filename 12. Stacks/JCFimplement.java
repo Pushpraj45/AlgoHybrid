@@ -2,6 +2,7 @@ import java.util.Stack;
 
 public class JCFimplement {
     public static void main(String[] args){
+        // Initializing stack 
         Stack<Integer>s=new Stack<>();
         s.push(1);
         s.push(2);
