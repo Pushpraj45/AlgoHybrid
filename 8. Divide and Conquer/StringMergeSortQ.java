@@ -51,7 +51,7 @@ public class StringMergeSortQ {
         return arr3;
     }
 
-//    Return true if str1 appears before str2 in alphabetical order
+//    Return true if str1 appears before str2 in alphabetical  
     public static boolean isAlphabeticallySmaller(String str1, String str2){
         if (str1.compareTo(str2)<0){
             return true;
